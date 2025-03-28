@@ -13,6 +13,7 @@ class MplCanvas(FigureCanvas):
         super(MplCanvas, self).__init__(self.fig)
         self.last_drawn_index = -1
         self.candles = None
+        self.line = None
         self.sma20_line = None
         self.sma50_line = None
         self.sma200_line = None
@@ -28,13 +29,14 @@ class Dashboard(QtWidgets.QMainWindow):
         self.trade_history_list_window = None
         self.is_playing = False
         self.play_speed = 500
-        self.show_rsi = True
-        self.show_macd = True
-        self.show_sma20 = True
-        self.show_sma50 = True
-        self.show_sma200 = True
+        self.show_rsi = False  # پیش‌فرض غیرفعال
+        self.show_macd = False  # پیش‌فرض غیرفعال
+        self.show_sma20 = False  # پیش‌فرض غیرفعال
+        self.show_sma50 = False  # پیش‌فرض غیرفعال
+        self.show_sma200 = False  # پیش‌فرض غیرفعال
+        self.use_candlestick = True
         self.data_queue = queue.Queue()
-        self.executor = ThreadPoolExecutor(max_workers=10)  # Thread Pool با 10 رشته
+        self.executor = ThreadPoolExecutor(max_workers=50)
         self.initUI()
 
     def initUI(self):
@@ -59,10 +61,10 @@ class Dashboard(QtWidgets.QMainWindow):
         self.btn_play = QtWidgets.QPushButton("Play")
         self.btn_stop = QtWidgets.QPushButton("Stop")
         self.speed_slider = QtWidgets.QSlider(QtCore.Qt.Horizontal)
-        self.speed_slider.setMinimum(100)
-        self.speed_slider.setMaximum(2000)
+        self.speed_slider.setMinimum(1000)
+        self.speed_slider.setMaximum(5000)
         self.speed_slider.setValue(self.play_speed)
-        self.speed_slider.setTickInterval(100)
+        self.speed_slider.setTickInterval(150)
         self.speed_slider.setTickPosition(QtWidgets.QSlider.TicksBelow)
         self.speed_label = QtWidgets.QLabel("Speed (ms):")
         self.btn_open_buy = QtWidgets.QPushButton("Open Buy")
@@ -101,18 +103,22 @@ class Dashboard(QtWidgets.QMainWindow):
 
         risk_layout = QtWidgets.QHBoxLayout()
         self.risk_label = QtWidgets.QLabel("Risk %:")
-        self.risk_input = QtWidgets.QLineEdit("2")
+        self.risk_input = QtWidgets.QLineEdit("10")  # پیش‌فرض 10%
         self.stop_loss_label = QtWidgets.QLabel("Stop Loss (pips):")
         self.stop_loss_input = QtWidgets.QLineEdit("20")
+        self.leverage_label = QtWidgets.QLabel("Leverage:")
+        self.leverage_input = QtWidgets.QLineEdit("1")
         risk_layout.addWidget(self.risk_label)
         risk_layout.addWidget(self.risk_input)
         risk_layout.addWidget(self.stop_loss_label)
         risk_layout.addWidget(self.stop_loss_input)
+        risk_layout.addWidget(self.leverage_label)
+        risk_layout.addWidget(self.leverage_input)
         main_layout.addLayout(risk_layout)
 
         self.open_trades_table = QtWidgets.QTableWidget()
-        self.open_trades_table.setColumnCount(6)
-        self.open_trades_table.setHorizontalHeaderLabels(["Trade ID", "Type", "Entry Price", "Size", "P&L", "Status"])
+        self.open_trades_table.setColumnCount(7)
+        self.open_trades_table.setHorizontalHeaderLabels(["Trade ID", "Type", "Entry Price", "Size", "P&L", "Leverage", "Status"])
         main_layout.addWidget(self.open_trades_table)
 
         central_widget.setLayout(main_layout)
@@ -120,21 +126,22 @@ class Dashboard(QtWidgets.QMainWindow):
         menubar = self.menuBar()
         indicators_menu = menubar.addMenu('Indicators')
         settings_menu = menubar.addMenu('Settings')
+        chart_menu = menubar.addMenu('Chart Type')
         
         self.rsi_action = QtWidgets.QAction('Show RSI', self, checkable=True)
-        self.rsi_action.setChecked(True)
+        self.rsi_action.setChecked(False)  # پیش‌فرض غیرفعال
         self.rsi_action.triggered.connect(self.toggle_rsi)
         self.macd_action = QtWidgets.QAction('Show MACD', self, checkable=True)
-        self.macd_action.setChecked(True)
+        self.macd_action.setChecked(False)  # پیش‌فرض غیرفعال
         self.macd_action.triggered.connect(self.toggle_macd)
         self.sma20_action = QtWidgets.QAction('Show SMA20', self, checkable=True)
-        self.sma20_action.setChecked(True)
+        self.sma20_action.setChecked(False)  # پیش‌فرض غیرفعال
         self.sma20_action.triggered.connect(self.toggle_sma20)
         self.sma50_action = QtWidgets.QAction('Show SMA50', self, checkable=True)
-        self.sma50_action.setChecked(True)
+        self.sma50_action.setChecked(False)  # پیش‌فرض غیرفعال
         self.sma50_action.triggered.connect(self.toggle_sma50)
         self.sma200_action = QtWidgets.QAction('Show SMA200', self, checkable=True)
-        self.sma200_action.setChecked(True)
+        self.sma200_action.setChecked(False)  # پیش‌فرض غیرفعال
         self.sma200_action.triggered.connect(self.toggle_sma200)
         indicators_menu.addAction(self.rsi_action)
         indicators_menu.addAction(self.macd_action)
@@ -145,6 +152,14 @@ class Dashboard(QtWidgets.QMainWindow):
         self.balance_action = QtWidgets.QAction('Set Initial Balance', self)
         self.balance_action.triggered.connect(self.set_initial_balance)
         settings_menu.addAction(self.balance_action)
+
+        self.candlestick_action = QtWidgets.QAction('Candlestick', self, checkable=True)
+        self.candlestick_action.setChecked(True)
+        self.candlestick_action.triggered.connect(self.set_candlestick)
+        self.line_action = QtWidgets.QAction('Line (Close Price)', self, checkable=True)
+        self.line_action.triggered.connect(self.set_line)
+        chart_menu.addAction(self.candlestick_action)
+        chart_menu.addAction(self.line_action)
 
         self.btn_forward.clicked.connect(self.step_forward)
         self.btn_backward.clicked.connect(self.step_backward)
@@ -193,6 +208,18 @@ class Dashboard(QtWidgets.QMainWindow):
         self.show_sma200 = self.sma200_action.isChecked()
         self.update_plot()
 
+    def set_candlestick(self):
+        self.use_candlestick = True
+        self.candlestick_action.setChecked(True)
+        self.line_action.setChecked(False)
+        self.update_plot()
+
+    def set_line(self):
+        self.use_candlestick = False
+        self.candlestick_action.setChecked(False)
+        self.line_action.setChecked(True)
+        self.update_plot()
+
     def slider_moved(self, value):
         self.data_manager.current_index = value
         self.data_manager.sub_index = 0
@@ -225,15 +252,18 @@ class Dashboard(QtWidgets.QMainWindow):
         try:
             risk_percentage = float(self.risk_input.text()) / 100
             stop_loss_pips = float(self.stop_loss_input.text())
+            leverage = float(self.leverage_input.text())
             self.simulator.risk_percentage = risk_percentage
+            self.simulator.set_leverage(leverage)
             trade_id = self.simulator.open_trade(trade_type, stop_loss_pips)
             if trade_id:
-                self.status_label.setText(f"Opened {trade_type} trade with ID {trade_id}")
+                size = self.simulator.calculate_position_size(stop_loss_pips)
+                self.status_label.setText(f"Opened {trade_type} trade with ID {trade_id}, leverage {leverage}, size {size}")
             else:
                 self.status_label.setText("Failed to open trade.")
             self.fetch_data()
         except ValueError:
-            self.status_label.setText("Invalid Risk or Stop Loss value")
+            self.status_label.setText("Invalid Risk, Stop Loss, or Leverage value")
 
     def close_trade(self):
         trade_id_text = self.trade_id_input.text()
@@ -245,6 +275,7 @@ class Dashboard(QtWidgets.QMainWindow):
         profit = self.simulator.close_trade(trade_id)
         if profit is not None:
             self.status_label.setText(f"Closed trade {trade_id} with profit: {profit:.4f}")
+            self.balance_label.setText(f"Balance: {self.simulator.account_balance:.2f}")
         else:
             self.status_label.setText("Trade not found or already closed.")
         self.fetch_data()
@@ -267,7 +298,6 @@ class Dashboard(QtWidgets.QMainWindow):
         msg.exec_()
 
     def fetch_data(self):
-        """دریافت داده‌ها با استفاده از Thread Pool"""
         def fetch_data_worker():
             data_window = self.data_manager.get_data_window()
             current_data = self.data_manager.get_current_data()
@@ -283,14 +313,13 @@ class Dashboard(QtWidgets.QMainWindow):
         self.executor.submit(fetch_trades_worker)
 
     def update_plot(self):
-        """به‌روزرسانی تدریجی نمودار"""
         while not self.data_queue.empty():
             data = self.data_queue.get()
-            if len(data) == 3:  # داده‌های کندل و قیمت
+            if len(data) == 3:
                 data_window, current_data, current_price = data
                 open_trades = self.simulator.get_open_trades()
                 closed_trades = self.simulator.get_closed_trades()
-            else:  # داده‌های معاملات
+            else:
                 _, _, _, open_trades, closed_trades = data
                 data_window = self.data_manager.get_data_window()
                 current_data = self.data_manager.get_current_data()
@@ -298,24 +327,31 @@ class Dashboard(QtWidgets.QMainWindow):
 
             if not data_window.empty:
                 dates = mdates.date2num(data_window['date_time'])
-                ohlc_data = list(zip(dates, data_window['Open'], data_window['High'], 
-                                data_window['Low'], data_window['Close']))
 
                 if self.canvas.last_drawn_index != self.data_manager.current_index:
                     self.canvas.axes.clear()
                     self.canvas.ax2.clear()
-                    from mpl_finance import candlestick_ohlc
-                    self.canvas.candles = candlestick_ohlc(self.canvas.axes, ohlc_data, 
-                                                        width=0.6/(24*60), colorup='g', colordown='r')
-                    self.canvas.axes.set_ylabel('Price', color='black')  # لیبل قیمت در سمت چپ
-                    self.canvas.axes.yaxis.set_label_position('left')    # اطمینان از چپ بودن لیبل قیمت
+                    if self.use_candlestick:
+                        ohlc_data = list(zip(dates, data_window['Open'], data_window['High'], 
+                                             data_window['Low'], data_window['Close']))
+                        from mpl_finance import candlestick_ohlc
+                        self.canvas.candles = candlestick_ohlc(self.canvas.axes, ohlc_data, 
+                                                               width=0.6/(24*60), colorup='g', colordown='r')
+                        self.canvas.line = None
+                    else:
+                        self.canvas.line, = self.canvas.axes.plot(dates, data_window['Close'], color='blue', label='Close Price')
+                        self.canvas.candles = None
+                    
+                    self.canvas.axes.set_ylabel('Price', color='black')
+                    self.canvas.axes.yaxis.set_label_position('left')
                     self.canvas.axes.tick_params(axis='y', labelcolor='black', which='both', left=True, right=False)
-                    self.canvas.ax2.set_ylabel('RSI / MACD', color='black')  # لیبل RSI/MACD در سمت راست
-                    self.canvas.ax2.yaxis.set_label_position('right')        # انتقال لیبل به راست
+                    self.canvas.ax2.set_ylabel('RSI / MACD', color='black')
+                    self.canvas.ax2.yaxis.set_label_position('right')
                     self.canvas.ax2.tick_params(axis='y', labelcolor='black', which='both', left=False, right=True)
                     self.canvas.last_drawn_index = self.data_manager.current_index
 
-                if self.show_sma20 and 'sma20' in data_window.columns:
+                # چک کردن وجود ستون‌ها قبل از رسم
+                if self.show_sma20 and 'sma20' in data_window.columns and not data_window['sma20'].isna().all():
                     if self.canvas.sma20_line is None:
                         self.canvas.sma20_line, = self.canvas.axes.plot(dates, data_window['sma20'], label='SMA20', color='orange')
                     else:
@@ -323,7 +359,7 @@ class Dashboard(QtWidgets.QMainWindow):
                 elif self.canvas.sma20_line:
                     self.canvas.sma20_line.set_data([], [])
                 
-                if self.show_sma50 and 'sma50' in data_window.columns:
+                if self.show_sma50 and 'sma50' in data_window.columns and not data_window['sma50'].isna().all():
                     if self.canvas.sma50_line is None:
                         self.canvas.sma50_line, = self.canvas.axes.plot(dates, data_window['sma50'], label='SMA50', color='purple')
                     else:
@@ -331,7 +367,7 @@ class Dashboard(QtWidgets.QMainWindow):
                 elif self.canvas.sma50_line:
                     self.canvas.sma50_line.set_data([], [])
                 
-                if self.show_sma200 and 'sma200' in data_window.columns:
+                if self.show_sma200 and 'sma200' in data_window.columns and not data_window['sma200'].isna().all():
                     if self.canvas.sma200_line is None:
                         self.canvas.sma200_line, = self.canvas.axes.plot(dates, data_window['sma200'], label='SMA200', color='blue')
                     else:
@@ -339,7 +375,7 @@ class Dashboard(QtWidgets.QMainWindow):
                 elif self.canvas.sma200_line:
                     self.canvas.sma200_line.set_data([], [])
 
-                if self.show_rsi and 'rsi14' in data_window.columns:
+                if self.show_rsi and 'rsi14' in data_window.columns and not data_window['rsi14'].isna().all():
                     if self.canvas.rsi_line is None:
                         self.canvas.rsi_line, = self.canvas.ax2.plot(dates, data_window['rsi14'], label='RSI14', color='green', linestyle='--')
                         self.canvas.ax2.set_ylim(0, 100)
@@ -348,7 +384,7 @@ class Dashboard(QtWidgets.QMainWindow):
                 elif self.canvas.rsi_line:
                     self.canvas.rsi_line.set_data([], [])
 
-                if self.show_macd and 'MACD' in data_window.columns:
+                if self.show_macd and 'MACD' in data_window.columns and not data_window['MACD'].isna().all():
                     if self.canvas.macd_line is None:
                         self.canvas.macd_line, = self.canvas.ax2.plot(dates, data_window['MACD'], label='MACD', color='red', linestyle='-')
                     else:
@@ -368,19 +404,37 @@ class Dashboard(QtWidgets.QMainWindow):
                         exit_time = mdates.date2num(trade.close_time)
                         self.canvas.axes.plot(exit_time, trade.exit_price, marker='x', color='red', markersize=8)
 
+                self.canvas.axes.set_xlim(dates[0] - 0.5, dates[-1] + 0.5)
                 self.canvas.axes.xaxis_date()
                 lines, labels = self.canvas.axes.get_legend_handles_labels()
                 lines2, labels2 = self.canvas.ax2.get_legend_handles_labels()
                 self.canvas.axes.legend(lines + lines2, labels + labels2, loc='upper left')
-                self.canvas.draw()            
-            
-            
+                self.canvas.fig.tight_layout()
+                self.canvas.draw()
+
+                self.open_trades_table.setRowCount(len(open_trades))
+                for row, trade in enumerate(open_trades):
+                    current_pnl = trade.get_profit(current_price) if current_price is not None else 0
+                    self.open_trades_table.setItem(row, 0, QtWidgets.QTableWidgetItem(str(trade.trade_id)))
+                    self.open_trades_table.setItem(row, 1, QtWidgets.QTableWidgetItem(trade.trade_type))
+                    self.open_trades_table.setItem(row, 2, QtWidgets.QTableWidgetItem(f"{trade.entry_price:.5f}"))
+                    self.open_trades_table.setItem(row, 3, QtWidgets.QTableWidgetItem(f"{trade.size:.2f}"))
+                    self.open_trades_table.setItem(row, 4, QtWidgets.QTableWidgetItem(f"{current_pnl:.2f}"))
+                    self.open_trades_table.setItem(row, 5, QtWidgets.QTableWidgetItem(f"{trade.leverage}"))
+                    self.open_trades_table.setItem(row, 6, QtWidgets.QTableWidgetItem("Open (AI)" if trade.is_ai_trade else "Open"))
+
     def update_dashboard(self):
         if self.is_playing:
             self.step_forward()
-        self.executor.submit(self.simulator.update_trades)  # به‌روزرسانی معاملات در یک رشته جدا
+        self.executor.submit(self.simulator.update_trades)
         self.fetch_data()
         self.update_plot()
+        current_price = self.data_manager.get_current_price()
+        if current_price is not None:
+            self.current_price_label.setText(f"Current Price: {current_price:.5f}")
+        else:
+            self.current_price_label.setText("Current Price: N/A")
+        self.balance_label.setText(f"Balance: {self.simulator.account_balance:.2f}")
 
     def keyPressEvent(self, event):
         if event.key() == QtCore.Qt.Key_Left:
@@ -391,6 +445,5 @@ class Dashboard(QtWidgets.QMainWindow):
             super(Dashboard, self).keyPressEvent(event)
 
     def closeEvent(self, event):
-        """بستن ThreadPoolExecutor هنگام خروج"""
         self.executor.shutdown()
         super().closeEvent(event)

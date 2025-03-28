@@ -4,14 +4,15 @@ from data_manager import DataManager
 from simulator import Simulator
 from dashboard import Dashboard
 from api import create_api
-import threading
+import queue, threading
+from DEFINEs import *
 
 def run_api(simulator):
     app = create_api(simulator)
     app.run(port=5000, debug=False, use_reloader=False)
 
 def main():
-    data_manager = DataManager("D:/Innovation/Dataset/AUDCAD_Dataset.csv")
+    data_manager = DataManager(DATASET_FILE_PATH)
     simulator = Simulator(data_manager)
 
     api_thread = threading.Thread(target=run_api, args=(simulator,))
