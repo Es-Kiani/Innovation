@@ -1,0 +1,893 @@
+2025-03-27 23:56:52,518 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-27 23:56:52,518 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 23:56:52,534 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 23:57:03,569 - INFO - Initial balance updated to 1000.0
+2025-03-27 23:57:13,636 - INFO - Trade 1 opened: Type=buy, Size=0.5, Entry=0.82938
+2025-03-27 23:57:13,995 - INFO - Trade 2 opened: Type=buy, Size=0.5, Entry=0.82938
+2025-03-27 23:57:14,322 - INFO - Trade 3 opened: Type=buy, Size=0.5, Entry=0.82938
+2025-03-27 23:57:14,644 - INFO - Trade 4 opened: Type=buy, Size=0.5, Entry=0.82938
+2025-03-27 23:57:14,833 - INFO - Trade 5 opened: Type=buy, Size=0.5, Entry=0.82938
+2025-03-27 23:57:23,013 - INFO - Trade 1 closed: Type=buy, Profit=-4.5000
+2025-03-27 23:57:25,698 - INFO - Trade 2 closed: Type=buy, Profit=-4.5000
+2025-03-27 23:57:28,347 - INFO - Trade 3 closed: Type=buy, Profit=-4.5000
+2025-03-27 23:57:30,266 - INFO - Trade 4 closed: Type=buy, Profit=-4.5000
+2025-03-27 23:57:31,100 - INFO - Trade 5 closed: Type=buy, Profit=-4.5000
+2025-03-27 23:57:32,388 - INFO - Trade 6 opened: Type=sell, Size=0.49, Entry=0.82938
+2025-03-27 23:57:35,706 - INFO - Trade 6 closed: Type=sell, Profit=-4.4100
+2025-03-28 00:01:27,186 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:01:27,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:01:27,201 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:05:21,363 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:05:21,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:05:21,376 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:07:18,957 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:07:18,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:07:18,969 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:12:03,342 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:12:03,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:12:03,358 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:13:49,324 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:13:49,340 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:13:49,340 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:16:17,091 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:16:17,104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:16:17,104 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 00:16:38,917 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 00:16:38,936 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 00:16:38,936 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:45:07,036 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 11:45:07,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 11:45:07,064 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:45:17,368 - INFO - Initial balance updated to 1000.0
+2025-03-28 11:46:11,150 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 11:46:11,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 11:46:11,177 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 11:46:19,631 - INFO - Initial balance updated to 1000.0
+2025-03-28 11:46:21,594 - INFO - Trade 1 opened: Type=buy, Size=0.1, Entry=0.85486
+2025-03-28 11:46:21,988 - INFO - Trade 1 closed: Type=buy, Profit=-0.9000
+2025-03-28 11:46:22,613 - INFO - Trade 2 opened: Type=sell, Size=0.1, Entry=0.85486
+2025-03-28 11:46:22,986 - INFO - Trade 2 closed: Type=sell, Profit=-0.9000
+2025-03-28 11:46:24,993 - INFO - Trade 3 opened: Type=sell, Size=0.1, Entry=0.85486
+2025-03-28 11:46:25,629 - INFO - Trade 3 closed: Type=sell, Profit=-0.9000
+2025-03-28 11:46:31,032 - INFO - Trade 4 opened: Type=sell, Size=0.1, Entry=0.85486
+2025-03-28 11:46:31,712 - INFO - Trade 4 closed: Type=sell, Profit=-0.9000
+2025-03-28 11:46:40,221 - INFO - Trade 5 opened: Type=sell, Size=0.1, Entry=0.85602
+2025-03-28 11:46:40,626 - INFO - Trade 5 closed: Type=sell, Profit=1.6000
+2025-03-28 11:46:41,228 - INFO - Trade 6 opened: Type=sell, Size=0.1, Entry=0.85429
+2025-03-28 11:46:41,661 - INFO - Trade 6 closed: Type=sell, Profit=0.8900
+2025-03-28 11:46:41,777 - INFO - Trade 7 opened: Type=sell, Size=0.1, Entry=0.8525
+2025-03-28 11:46:42,345 - INFO - Trade 7 closed: Type=sell, Profit=-0.1900
+2025-03-28 11:46:44,003 - INFO - Trade 8 opened: Type=buy, Size=0.1, Entry=0.85266
+2025-03-28 11:46:44,520 - INFO - Trade 8 closed: Type=buy, Profit=-2.7200
+2025-03-28 11:46:44,554 - INFO - Trade 9 opened: Type=sell, Size=0.1, Entry=0.85318
+2025-03-28 11:46:45,012 - INFO - Trade 9 closed: Type=sell, Profit=0.3800
+2025-03-28 11:46:46,369 - INFO - Trade 10 opened: Type=sell, Size=0.1, Entry=0.85186
+2025-03-28 11:46:46,417 - INFO - Trade 10 closed: Type=sell, Profit=-2.9000
+2025-03-28 11:46:46,857 - INFO - Trade 11 opened: Type=sell, Size=0.1, Entry=0.85468
+2025-03-28 11:46:46,861 - INFO - Trade 11 closed: Type=sell, Profit=2.7800
+2025-03-28 11:46:47,364 - INFO - Trade 12 opened: Type=sell, Size=0.1, Entry=0.85427
+2025-03-28 11:46:47,411 - INFO - Trade 12 closed: Type=sell, Profit=-0.8700
+2025-03-28 11:46:48,063 - INFO - Trade 13 opened: Type=sell, Size=0.1, Entry=0.8551
+2025-03-28 11:46:48,594 - INFO - Trade 13 closed: Type=sell, Profit=0.2700
+2025-03-28 11:46:48,610 - INFO - Trade 14 opened: Type=sell, Size=0.1, Entry=0.85397
+2025-03-28 11:46:48,736 - INFO - Trade 14 closed: Type=sell, Profit=-2.9000
+2025-03-28 11:46:49,227 - INFO - Trade 15 opened: Type=sell, Size=0.1, Entry=0.85687
+2025-03-28 11:46:49,270 - INFO - Trade 15 closed: Type=sell, Profit=2.1100
+2025-03-28 11:46:49,898 - INFO - Trade 16 opened: Type=sell, Size=0.1, Entry=0.85564
+2025-03-28 11:46:49,930 - INFO - Trade 16 closed: Type=sell, Profit=-0.9600
+2025-03-28 11:46:50,606 - INFO - Trade 17 opened: Type=sell, Size=0.1, Entry=0.854
+2025-03-28 11:46:51,213 - INFO - Trade 17 closed: Type=sell, Profit=-2.7100
+2025-03-28 11:46:51,277 - INFO - Trade 18 opened: Type=sell, Size=0.1, Entry=0.85589
+2025-03-28 11:46:51,966 - INFO - Trade 18 closed: Type=sell, Profit=-1.7200
+2025-03-28 12:03:58,340 - INFO - Simulator initialized with balance=1000, risk=10.0%
+2025-03-28 12:03:58,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 12:03:58,355 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:06:11,444 - INFO - Simulator initialized with balance=1000, risk=10.0%
+2025-03-28 12:06:11,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 12:06:11,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 12:06:21,109 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:21,109 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:21] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:22,115 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:22,115 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:22] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:23,120 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:23,120 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:23] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:24,123 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:24,123 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:24] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:25,128 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:25,128 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:25] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:26,134 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:26,136 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:26] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:27,143 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:27,144 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:27] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:38,377 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:38,378 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:38] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:39,382 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:39,383 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:39] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:40,387 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:40,388 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:40] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:41,389 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:41,389 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:41] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:42,393 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:42,393 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:42] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:43,402 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:43,402 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:43] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:06:44,408 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:06:44,410 - INFO - 127.0.0.1 - - [28/Mar/2025 12:06:44] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:26,547 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:26,547 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:26] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:27,560 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:27,560 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:27] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:28,566 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:28,567 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:28] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:29,571 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:29,572 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:29] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:30,578 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:30,582 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:30] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:31,583 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:31,583 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:31] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:07:32,589 - ERROR - Exception on /open_trade [POST]
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Innovation\Code\api.py", line 13, in open_trade
+    trade_id = simulator.open_trade(trade_type, is_ai_trade=is_ai_trade)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Simulator.open_trade() got an unexpected keyword argument 'is_ai_trade'
+2025-03-28 12:07:32,589 - INFO - 127.0.0.1 - - [28/Mar/2025 12:07:32] "[35m[1mPOST /open_trade HTTP/1.1[0m" 500 -
+2025-03-28 12:17:37,431 - INFO - Simulator initialized with balance=1000, risk=10.0%
+2025-03-28 12:17:37,447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 12:17:37,447 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:31:57,230 - INFO - Simulator initialized with balance=1000, risk=10.0%
+2025-03-28 19:31:57,231 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:31:57,231 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:32:27,445 - INFO - Trade 1 opened: Type=sell, Size=0.1, Entry=0.85202
+2025-03-28 19:32:34,257 - INFO - Trade 2 opened: Type=sell, Size=0.1, Entry=0.84942
+2025-03-28 19:32:38,074 - INFO - Trade 3 opened: Type=buy, Size=0.1, Entry=0.85002
+2025-03-28 19:32:41,276 - INFO - Trade 4 opened: Type=sell, Size=0.1, Entry=0.85104
+2025-03-28 19:32:42,994 - INFO - Trade 2 closed: Type=sell, Profit=-2.9000
+2025-03-28 19:32:46,052 - INFO - Trade 1 closed: Type=sell, Profit=2.1100
+2025-03-28 19:32:51,639 - INFO - Trade 3 closed: Type=buy, Profit=-2.2500
+2025-03-28 19:32:54,042 - INFO - Trade 4 closed: Type=sell, Profit=-0.1500
+2025-03-28 19:35:56,353 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 19:35:56,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:35:56,368 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:36:15,484 - INFO - Trade 1 opened: Type=buy, Size=0.5, Entry=0.94359, AI=False
+2025-03-28 19:36:24,334 - INFO - Trade 1 closed: Type=buy, Profit=2.2000, AI=False
+2025-03-28 19:36:24,334 - INFO - Balance updated to 5002.20 after closing trade 1
+2025-03-28 19:36:42,224 - INFO - Simulator initialized with balance=5000, risk=2.0%
+2025-03-28 19:36:42,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:36:42,246 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:37:01,508 - INFO - Trade 1 opened: Type=buy, Size=0.5, Entry=0.91477, AI=False
+2025-03-28 19:37:12,930 - INFO - Trade 1 closed: Type=buy, Profit=9.7000, AI=False
+2025-03-28 19:37:12,930 - INFO - Balance updated to 5009.70 after closing trade 1
+2025-03-28 19:40:12,261 - INFO - Simulator initialized with balance=5000, risk=2.0%, leverage=1
+2025-03-28 19:40:12,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:40:12,276 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:42:25,998 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=10
+2025-03-28 19:42:26,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:42:26,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:44:19,277 - INFO - Leverage set to 10.0
+2025-03-28 19:44:19,278 - INFO - Trade 1 opened: Type=sell, Size=5.0, Entry=0.89576, Leverage=10.0, AI=False
+2025-03-28 19:44:27,294 - INFO - Trade 1 closed: Type=sell, Profit=-1135.0000, Leverage=10.0, AI=False
+2025-03-28 19:44:27,294 - INFO - Trade 1 hit stop loss. Balance updated to -135.00
+2025-03-28 19:44:50,643 - INFO - Leverage set to 10.0
+2025-03-28 19:44:50,644 - INFO - Trade 2 opened: Type=sell, Size=-0.68, Entry=0.89713, Leverage=10.0, AI=False
+2025-03-28 19:45:45,338 - INFO - Trade 2 closed: Type=sell, Profit=-753.4400, Leverage=10.0, AI=False
+2025-03-28 19:45:45,338 - INFO - Balance updated to -888.44 after closing trade 2
+2025-03-28 19:46:02,165 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:02] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:02,182 - INFO - Trade 3 opened: Type=buy, Size=-4.44, Entry=0.88279, Leverage=10.0, AI=True
+2025-03-28 19:46:02,182 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:02] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 19:46:03,184 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:03] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:04,016 - INFO - Trade 3 closed: Type=buy, Profit=1007.8800, Leverage=10.0, AI=True
+2025-03-28 19:46:04,016 - INFO - Trade 3 hit stop loss. Balance updated to 119.44
+2025-03-28 19:46:04,187 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:04] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:05,192 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:05] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:06,196 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:06] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:07,209 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:07] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:08,213 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:08] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:09,215 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:09] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:10,222 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:10] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:11,227 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:11] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:12,228 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:12] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:13,251 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:13] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:14,265 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:14] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:15,270 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:15] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:16,276 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:16] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:17,284 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:17] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:18,294 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:18] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:19,298 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:19] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:20,299 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:20] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:21,309 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:21] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:21,314 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:21] "[31m[1mPOST /close_trade HTTP/1.1[0m" 400 -
+2025-03-28 19:46:22,323 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:22] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:22,328 - INFO - Trade 4 opened: Type=buy, Size=0.6, Entry=0.88437, Leverage=10.0, AI=True
+2025-03-28 19:46:22,329 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:22] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 19:46:23,340 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:23] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:24,348 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:24] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:25,356 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:25] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:26,372 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:26] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:27,382 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:27] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:28,404 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:28] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:29,430 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:29] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:30,435 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:30] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:31,440 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:31] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:32,444 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:32] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:33,450 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:33] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:34,455 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:34] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:35,462 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:35] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:46:36,466 - INFO - 127.0.0.1 - - [28/Mar/2025 19:46:36] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 19:53:10,814 - INFO - Simulator initialized with balance=5000, risk=2.0%, leverage=1
+2025-03-28 19:53:10,828 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:53:10,828 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:54:27,438 - INFO - Leverage set to 10.0
+2025-03-28 19:54:27,438 - INFO - Trade 1 opened: Type=sell, Size=25.0, Entry=0.92582, Leverage=10.0, AI=False
+2025-03-28 19:54:56,448 - INFO - Trade 1 closed: Type=sell, Profit=19125.0000, Leverage=10.0, AI=False
+2025-03-28 19:54:56,448 - INFO - Balance updated to 24125.00 after closing trade 1
+2025-03-28 19:59:58,502 - INFO - Simulator initialized with balance=5000, risk=2.0%, leverage=1
+2025-03-28 19:59:58,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 19:59:58,529 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:00:59,910 - INFO - Leverage set to 5.0
+2025-03-28 20:00:59,910 - INFO - Trade 1 opened: Type=sell, Size=0.01, Entry=0.87297, Leverage=5.0, AI=False
+2025-03-28 20:01:18,982 - INFO - Trade 1 closed: Type=sell, Profit=1.7350, Leverage=5.0, AI=False
+2025-03-28 20:01:18,982 - INFO - Balance updated to 5001.73 after closing trade 1
+2025-03-28 20:06:47,881 - INFO - Simulator initialized with balance=5000, risk=2.0%, leverage=1
+2025-03-28 20:06:47,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:06:47,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:07:24,105 - INFO - Initial balance updated to 1000.0
+2025-03-28 20:08:37,339 - INFO - Leverage set to 1.0
+2025-03-28 20:08:37,339 - INFO - Trade 1 opened: Type=buy, Size=0.0, Entry=0.82785, Leverage=1.0, AI=False
+2025-03-28 20:08:48,386 - INFO - Leverage set to 1.0
+2025-03-28 20:08:48,387 - INFO - Trade 2 opened: Type=buy, Size=0.0, Entry=0.82785, Leverage=1.0, AI=False
+2025-03-28 20:09:10,755 - INFO - Trade 1 closed: Type=buy, Profit=0.0000, Leverage=1.0, AI=False
+2025-03-28 20:09:10,755 - INFO - Balance updated to 1000.00 after closing trade 1
+2025-03-28 20:09:12,675 - INFO - Trade 2 closed: Type=buy, Profit=0.0000, Leverage=1.0, AI=False
+2025-03-28 20:09:12,676 - INFO - Balance updated to 1000.00 after closing trade 2
+2025-03-28 20:09:23,356 - INFO - Leverage set to 1.0
+2025-03-28 20:09:23,356 - INFO - Trade 3 opened: Type=sell, Size=0.01, Entry=0.83475, Leverage=1.0, AI=False
+2025-03-28 20:09:28,165 - INFO - Trade 3 closed: Type=sell, Profit=-0.2900, Leverage=1.0, AI=False
+2025-03-28 20:09:28,165 - INFO - Trade 3 hit stop loss. Balance updated to 999.71
+2025-03-28 20:12:28,954 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:28] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:28,958 - INFO - Trade 4 opened: Type=buy, Size=0.5, Entry=0.84146, Leverage=1.0, AI=True
+2025-03-28 20:12:28,958 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:28] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 20:12:29,961 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:29] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:30,965 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:30] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:31,970 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:31] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:32,977 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:32] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:33,980 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:33] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:34,985 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:34] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:35,988 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:35] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:36,995 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:36] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:38,003 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:38] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:39,006 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:39] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:40,023 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:40] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:40,030 - INFO - Trade 4 closed: Type=buy, Profit=-4.5000, Leverage=1.0, AI=True
+2025-03-28 20:12:40,032 - INFO - Balance updated to 995.21 after closing trade 4
+2025-03-28 20:12:40,036 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:40] "POST /close_trade HTTP/1.1" 200 -
+2025-03-28 20:12:41,053 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:41] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:41,057 - INFO - Trade 5 opened: Type=buy, Size=0.5, Entry=0.84146, Leverage=1.0, AI=True
+2025-03-28 20:12:41,058 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:41] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 20:12:42,129 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:42] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:43,139 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:43] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:44,143 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:44] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:45,157 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:45] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:46,162 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:46] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:47,169 - INFO - 127.0.0.1 - - [28/Mar/2025 20:12:47] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 20:12:54,194 - INFO - Trade 5 closed: Type=buy, Profit=-4.5000, Leverage=1.0, AI=True
+2025-03-28 20:12:54,195 - INFO - Balance updated to 990.71 after closing trade 5
+2025-03-28 20:22:50,303 - INFO - Simulator initialized with balance=5000, risk=2.0%, leverage=1
+2025-03-28 20:22:50,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:22:50,323 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:26:54,406 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:26:54,459 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:26:54,459 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:37:26,027 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:37:26,261 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:37:26,261 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:41:51,170 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:41:51,185 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:41:51,185 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:44:51,298 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:44:51,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:44:51,312 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:45:55,138 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:45:55,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:45:55,151 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:50:20,592 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:50:20,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:50:20,605 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 20:53:40,249 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 20:53:40,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 20:53:40,262 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 21:40:05,076 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 21:40:05,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 21:40:05,089 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 21:40:28,793 - INFO - Leverage set to 1.0
+2025-03-28 21:40:28,794 - INFO - Trade 1 opened: Type=buy, Size=0.5, Entry=0.84262, Leverage=1.0, AI=False
+2025-03-28 21:40:34,407 - INFO - Trade 1 closed: Type=buy, Profit=-14.5000, Leverage=1.0, AI=False
+2025-03-28 21:40:34,407 - INFO - Trade 1 hit stop loss. Balance updated to 985.50
+2025-03-28 21:40:56,214 - INFO - Leverage set to 1.0
+2025-03-28 21:40:56,216 - INFO - Trade 2 opened: Type=buy, Size=0.49, Entry=0.8197, Leverage=1.0, AI=False
+2025-03-28 21:41:02,299 - INFO - Trade 2 closed: Type=buy, Profit=-14.2100, Leverage=1.0, AI=False
+2025-03-28 21:41:02,300 - INFO - Trade 2 hit stop loss. Balance updated to 971.29
+2025-03-28 21:42:14,728 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:14] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:14,734 - INFO - Trade 3 opened: Type=buy, Size=0.49, Entry=0.81932, Leverage=1.0, AI=True
+2025-03-28 21:42:14,735 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:14] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:42:15,741 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:15] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:16,746 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:16] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:17,749 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:17] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:18,753 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:18] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:19,756 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:19] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:20,767 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:20] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:21,780 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:21] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:22,786 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:22] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:23,792 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:23] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:24,795 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:24] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:25,801 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:25] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:26,805 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:26] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:27,810 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:27] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:28,819 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:28] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:29,825 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:29] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:30,835 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:30] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:31,841 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:31] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:32,407 - INFO - Trade 3 closed: Type=buy, Profit=5.3900, Leverage=1.0, AI=True
+2025-03-28 21:42:32,407 - INFO - Balance updated to 976.68 after closing trade 3
+2025-03-28 21:42:32,845 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:32] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:33,850 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:33] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:33,852 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:33] "[31m[1mPOST /close_trade HTTP/1.1[0m" 400 -
+2025-03-28 21:42:34,858 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:34] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:34,861 - INFO - Trade 4 opened: Type=buy, Size=0.49, Entry=0.82273, Leverage=1.0, AI=True
+2025-03-28 21:42:34,861 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:34] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:42:35,244 - INFO - Trade 4 closed: Type=buy, Profit=-14.2100, Leverage=1.0, AI=True
+2025-03-28 21:42:35,244 - INFO - Trade 4 hit stop loss. Balance updated to 962.47
+2025-03-28 21:42:35,865 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:35] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:36,870 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:36] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:37,875 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:37] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:38,882 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:38] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:39,884 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:39] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:40,890 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:40] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:41,896 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:41] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:42,903 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:42] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:42,908 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:42] "[31m[1mPOST /close_trade HTTP/1.1[0m" 400 -
+2025-03-28 21:42:43,912 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:43] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:43,917 - INFO - Trade 5 opened: Type=buy, Size=0.48, Entry=0.82058, Leverage=1.0, AI=True
+2025-03-28 21:42:43,917 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:43] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:42:44,926 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:44] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:45,940 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:45] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:42:46,945 - INFO - 127.0.0.1 - - [28/Mar/2025 21:42:46] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:49:16,878 - INFO - Trade 5 closed: Type=buy, Profit=-13.9200, Leverage=1.0, AI=True
+2025-03-28 21:49:16,880 - INFO - Trade 5 hit stop loss. Balance updated to 948.55
+2025-03-28 21:56:58,824 - INFO - 127.0.0.1 - - [28/Mar/2025 21:56:58] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:56:58,829 - INFO - Trade 6 opened: Type=buy, Size=0.47, Entry=0.82121, Leverage=1.0, AI=True
+2025-03-28 21:56:58,829 - INFO - 127.0.0.1 - - [28/Mar/2025 21:56:58] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:56:59,836 - INFO - 127.0.0.1 - - [28/Mar/2025 21:56:59] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:00,843 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:00] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:01,850 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:01] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:02,854 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:02] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:03,859 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:03] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:04,865 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:04] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:05,867 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:05] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:06,872 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:06] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:07,879 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:07] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:07,883 - INFO - Trade 6 closed: Type=buy, Profit=-4.2300, Leverage=1.0, AI=True
+2025-03-28 21:57:07,883 - INFO - Balance updated to 944.32 after closing trade 6
+2025-03-28 21:57:07,883 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:07] "POST /close_trade HTTP/1.1" 200 -
+2025-03-28 21:57:08,888 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:08] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:08,890 - INFO - Trade 7 opened: Type=buy, Size=0.47, Entry=0.82121, Leverage=1.0, AI=True
+2025-03-28 21:57:08,890 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:08] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:57:09,896 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:09] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:10,904 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:10] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:11,910 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:11] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:12,916 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:12] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:13,920 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:13] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:13,924 - INFO - Trade 7 closed: Type=buy, Profit=-3.0080, Leverage=1.0, AI=True
+2025-03-28 21:57:13,924 - INFO - Balance updated to 941.31 after closing trade 7
+2025-03-28 21:57:13,924 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:13] "POST /close_trade HTTP/1.1" 200 -
+2025-03-28 21:57:14,927 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:14] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:14,930 - INFO - Trade 8 opened: Type=buy, Size=0.47, Entry=0.82125, Leverage=1.0, AI=True
+2025-03-28 21:57:14,930 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:14] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:57:15,934 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:15] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:16,937 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:16] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:17,942 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:17] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:18,946 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:18] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:19,953 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:19] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:20,175 - INFO - Trade 8 closed: Type=buy, Profit=-13.6300, Leverage=1.0, AI=True
+2025-03-28 21:57:20,175 - INFO - Trade 8 hit stop loss. Balance updated to 927.68
+2025-03-28 21:57:20,962 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:20] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:21,968 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:21] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:22,975 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:22] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:23,980 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:23] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:23,983 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:23] "[31m[1mPOST /close_trade HTTP/1.1[0m" 400 -
+2025-03-28 21:57:24,991 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:24] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:24,996 - INFO - Trade 9 opened: Type=buy, Size=0.46, Entry=0.82062, Leverage=1.0, AI=True
+2025-03-28 21:57:24,996 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:24] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:57:25,191 - INFO - Trade 9 closed: Type=buy, Profit=-13.3400, Leverage=1.0, AI=True
+2025-03-28 21:57:25,192 - INFO - Trade 9 hit stop loss. Balance updated to 914.34
+2025-03-28 21:57:26,005 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:26] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:27,008 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:27] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:28,014 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:28] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:29,018 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:29] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:30,023 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:30] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:31,028 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:31] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:32,033 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:32] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:33,038 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:33] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:34,042 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:34] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:35,049 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:35] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:36,055 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:36] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:37,059 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:37] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:38,063 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:38] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:39,070 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:39] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:40,075 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:40] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:41,083 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:41] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:42,088 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:42] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:43,092 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:43] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:44,096 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:44] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:45,100 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:45] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:46,104 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:46] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:47,109 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:47] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:48,115 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:48] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:49,121 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:49] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:50,130 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:50] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:51,135 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:51] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:52,139 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:52] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:53,146 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:53] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:54,150 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:54] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:55,158 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:55] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:56,163 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:56] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:57,174 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:57] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:58,183 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:58] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:57:59,189 - INFO - 127.0.0.1 - - [28/Mar/2025 21:57:59] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:00,193 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:00] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:01,196 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:01] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:02,201 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:02] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:03,215 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:03] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:04,221 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:04] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:05,225 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:05] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:06,229 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:06] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:10,858 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:10] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:10,863 - INFO - Trade 10 opened: Type=buy, Size=0.46, Entry=0.82047, Leverage=1.0, AI=True
+2025-03-28 21:58:10,864 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:10] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:58:11,870 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:11] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:12,877 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:12] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:13,882 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:13] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:14,888 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:14] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:15,894 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:15] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:16,900 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:16] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:16,903 - INFO - Trade 10 closed: Type=buy, Profit=-2.2540, Leverage=1.0, AI=True
+2025-03-28 21:58:16,903 - INFO - Balance updated to 912.09 after closing trade 10
+2025-03-28 21:58:16,904 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:16] "POST /close_trade HTTP/1.1" 200 -
+2025-03-28 21:58:17,909 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:17] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:17,911 - INFO - Trade 11 opened: Type=sell, Size=0.46, Entry=0.81967, Leverage=1.0, AI=True
+2025-03-28 21:58:17,912 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:17] "POST /open_trade HTTP/1.1" 200 -
+2025-03-28 21:58:18,921 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:18] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:19,932 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:19] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:20,942 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:20] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:21,949 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:21] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:22,236 - INFO - Trade 11 closed: Type=sell, Profit=-13.3400, Leverage=1.0, AI=True
+2025-03-28 21:58:22,246 - INFO - Trade 11 hit stop loss. Balance updated to 898.75
+2025-03-28 21:58:22,958 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:22] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:23,966 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:23] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:24,975 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:24] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:25,983 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:25] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:26,994 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:26] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:27,999 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:27] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:29,003 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:29] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:30,013 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:30] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:31,025 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:31] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:32,034 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:32] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:33,041 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:33] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:34,045 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:34] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:35,053 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:35] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:36,059 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:36] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:37,066 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:37] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:38,069 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:38] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:39,075 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:39] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:40,086 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:40] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:41,096 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:41] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:42,100 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:42] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:43,105 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:43] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:44,107 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:44] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:45,110 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:45] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:46,115 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:46] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:47,117 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:47] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:48,122 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:48] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 21:58:49,126 - INFO - 127.0.0.1 - - [28/Mar/2025 21:58:49] "GET /current_data HTTP/1.1" 200 -
+2025-03-28 23:17:46,615 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-28 23:17:46,629 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 23:17:46,629 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 17:45:16,110 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-29 17:45:16,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 17:45:16,135 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 17:45:48,747 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-29 17:45:48,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 17:45:48,762 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 17:46:19,019 - INFO - Simulator initialized with balance=1000, risk=10.0%, leverage=1
+2025-03-29 17:46:19,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 17:46:19,034 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 17:46:53,282 - INFO - Leverage set to 1.0
+2025-03-29 17:46:53,282 - INFO - Trade 1 opened: Type=buy, Size=0.5, Entry=0.91972, Leverage=1.0, AI=False
+2025-03-29 17:47:02,038 - INFO - Trade 1 closed: Type=buy, Profit=198.7000, Leverage=1.0, AI=False
+2025-03-29 17:47:02,038 - INFO - Balance updated to 1198.70 after closing trade 1
