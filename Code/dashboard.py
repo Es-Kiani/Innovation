@@ -35,6 +35,7 @@ class Dashboard(QtWidgets.QMainWindow):
         self.show_sma50 = False  # پیش‌فرض غیرفعال
         self.show_sma200 = False  # پیش‌فرض غیرفعال
         self.use_candlestick = True
+        self.show_chart = False  # چارت به‌صورت پیش‌فرض خاموش
         self.data_queue = queue.Queue()
         self.executor = ThreadPoolExecutor(max_workers=50)
         self.initUI()
@@ -62,9 +63,9 @@ class Dashboard(QtWidgets.QMainWindow):
         self.btn_stop = QtWidgets.QPushButton("Stop")
         self.speed_slider = QtWidgets.QSlider(QtCore.Qt.Horizontal)
         self.speed_slider.setMinimum(1)
-        self.speed_slider.setMaximum(1000)
+        self.speed_slider.setMaximum(5000)
         self.speed_slider.setValue(self.play_speed)
-        self.speed_slider.setTickInterval(100)
+        self.speed_slider.setTickInterval(500)
         self.speed_slider.setTickPosition(QtWidgets.QSlider.TicksBelow)
         self.speed_label = QtWidgets.QLabel("Speed (ms):")
         self.btn_open_buy = QtWidgets.QPushButton("Open Buy")
@@ -172,9 +173,17 @@ class Dashboard(QtWidgets.QMainWindow):
         self.btn_trade_history_chart.clicked.connect(self.open_trade_history_chart)
         self.btn_trade_history_list.clicked.connect(self.open_trade_history_list)
         self.btn_report.clicked.connect(self.show_report)
+        
+        
+        self.chart_action = QtWidgets.QAction('Show Chart', self, checkable=True)
+        self.chart_action.setChecked(self.show_chart)  # پیش‌فرض خاموش
+        self.chart_action.triggered.connect(self.toggle_chart)
+        settings_menu.addAction(self.chart_action)
+        
+        self.canvas.setVisible(self.show_chart)  # چارت به‌صورت پیش‌فرض مخفی
 
         self.timer = QtCore.QTimer()
-        self.timer.setInterval(500)
+        self.timer.setInterval(100)
         self.timer.timeout.connect(self.update_dashboard)
         self.timer.start()
 
@@ -207,6 +216,14 @@ class Dashboard(QtWidgets.QMainWindow):
     def toggle_sma200(self):
         self.show_sma200 = self.sma200_action.isChecked()
         self.update_plot()
+        
+    def toggle_chart(self):
+        self.show_chart = self.chart_action.isChecked()
+        if self.show_chart:
+            self.canvas.setVisible(True)
+            self.update_plot()
+        else:
+            self.canvas.setVisible(False)
 
     def set_candlestick(self):
         self.use_candlestick = True
@@ -244,7 +261,7 @@ class Dashboard(QtWidgets.QMainWindow):
         self.timer.setInterval(500)
 
     def set_play_speed(self, value):
-        self.play_speed = value
+        self.play_speed = max(1, value)  # جلوگیری از تأخیر صفر
         if self.is_playing:
             self.timer.setInterval(self.play_speed)
 
@@ -313,6 +330,30 @@ class Dashboard(QtWidgets.QMainWindow):
         self.executor.submit(fetch_trades_worker)
 
     def update_plot(self):
+        if not self.show_chart:
+        # اگر چارت خاموش باشد، فقط داده‌های جدول معاملات باز را به‌روزرسانی می‌کنیم
+            while not self.data_queue.empty():
+                data = self.data_queue.get()
+                if len(data) == 3:
+                    data_window, current_data, current_price = data
+                    open_trades = self.simulator.get_open_trades()
+                else:
+                    _, _, _, open_trades, closed_trades = data
+                    current_price = self.data_manager.get_current_price()
+
+                self.open_trades_table.setRowCount(len(open_trades))
+                for row, trade in enumerate(open_trades):
+                    current_pnl = trade.get_profit(current_price) if current_price is not None else 0
+                    self.open_trades_table.setItem(row, 0, QtWidgets.QTableWidgetItem(str(trade.trade_id)))
+                    self.open_trades_table.setItem(row, 1, QtWidgets.QTableWidgetItem(trade.trade_type))
+                    self.open_trades_table.setItem(row, 2, QtWidgets.QTableWidgetItem(f"{trade.entry_price:.5f}"))
+                    self.open_trades_table.setItem(row, 3, QtWidgets.QTableWidgetItem(f"{trade.size:.2f}"))
+                    self.open_trades_table.setItem(row, 4, QtWidgets.QTableWidgetItem(f"{current_pnl:.2f}"))
+                    self.open_trades_table.setItem(row, 5, QtWidgets.QTableWidgetItem(f"{trade.leverage}"))
+                    self.open_trades_table.setItem(row, 6, QtWidgets.QTableWidgetItem("Open (AI)" if trade.is_ai_trade else "Open"))
+            return
+        
+        
         while not self.data_queue.empty():
             data = self.data_queue.get()
             if len(data) == 3:
