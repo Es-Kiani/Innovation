@@ -121,8 +121,6 @@ To help improve the simulator, feel free to:
 - Suggest features
 - Submit pull requests
 
-Contact: [Your GitHub Profile or Email]
-
 ---
 
 ## 📅 Last Updated
